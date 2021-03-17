@@ -37,3 +37,32 @@ for index in mapa.keys():
 
 zbior = {'Ala', "Alan", "Ala", "Tomasz"}
 print(zbior, type(zbior))
+
+# slices
+print(elements)
+el = elements[1:3]
+print(el)
+# slice tylko początek
+print( elements[2:] )
+# slice tylko koniec
+print( elements[:3] )
+print( elements[:-2] ) #-2 drugi element od końca
+
+
+tab = [
+    [1,3] ,
+    [6,2.4],
+    [3, 12],
+    [33,7.5]
+]
+print(tab[2][1])
+
+
+#możliwe zadania
+#zapelnić tablice 20 wartościami losowymi
+#a) znaleźć max, min, średnią
+#b) ręcznie posortować
+
+#zapełnić tablicę 10 słowami
+#a) posortować alfabetycznie
+#a2) co z językiem polskim ??
