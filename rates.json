@@ -1,0 +1,42 @@
+{
+  "table": "A",
+  "currency": "euro",
+  "code": "EUR",
+  "rates": [
+    {
+      "no": "065/A/NBP/2021",
+      "effectiveDate": "2021-04-06",
+      "mid": 4.6041
+    },
+    {
+      "no": "066/A/NBP/2021",
+      "effectiveDate": "2021-04-07",
+      "mid": 4.5897
+    },
+    {
+      "no": "067/A/NBP/2021",
+      "effectiveDate": "2021-04-08",
+      "mid": 4.5581
+    },
+    {
+      "no": "068/A/NBP/2021",
+      "effectiveDate": "2021-04-09",
+      "mid": 4.5414
+    },
+    {
+      "no": "069/A/NBP/2021",
+      "effectiveDate": "2021-04-12",
+      "mid": 4.5330
+    },
+    {
+      "no": "070/A/NBP/2021",
+      "effectiveDate": "2021-04-13",
+      "mid": 4.5627
+    },
+    {
+      "no": "071/A/NBP/2021",
+      "effectiveDate": "2021-04-14",
+      "mid": 4.5552
+    }
+  ]
+}
