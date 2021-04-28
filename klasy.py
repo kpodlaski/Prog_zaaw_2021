@@ -1,4 +1,5 @@
 
+
 class Shape:
     area = 0
 
@@ -30,23 +31,16 @@ class Rectangle(Shape):
     @classmethod
     def create_square(cls, width):
         shape = Rectangle(width, width)
-        print("pole a", cls.area)
+#       print("pole a", cls.area)
         return shape
 
+    @classmethod
+    def create_rectange(cls, width, height):
+        shape = Rectangle(width, height)
+#       print("pole a", cls.area)
+        return shape
 
-
-shape = Shape(3, 5)
-shape = Rectangle(3, 5)
-shape.area = 12
-#shape.set_bb_width(33)
-print(shape.area)
-print(shape.bbox_width)
-shape.i = 3
-print(shape.i)
-print(shape._private_field)
-print(str(shape))
-shape2 = Rectangle.create_square(13)
-print(shape.area)
-print(shape2.height, shape2.height)
-shape2 = shape.create_square(13)
+    def set_bb_width(self, width):
+        super().set_bb_width(width)
+        print("Potomek")
 
